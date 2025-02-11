@@ -1,4 +1,5 @@
-int  main()
+#include<stdio.h>
+int main()
 {
     scanf("%d",&num);
     if(num%2==0)
