@@ -9,10 +9,6 @@ for (i=2;i<n;i++){
     printf("Not Prime");
 
 }
-else
-{
-    printf("Prime");
-}
 
 return 0;
     }
