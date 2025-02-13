@@ -2,10 +2,10 @@
 
 int main() {
     int n, i;
-    scanf("%d", &n);  // Read the number n from user input
+    scanf("%d", &n);  
 
     for(i = 1; i <= 10; i++) {
-        printf("%d * %d = %d\n", n, i, n * i);  // Print the multiplication table
+        printf("%d x %d = %d\n", n, i, n * i);  
     }
 
     return 0;
