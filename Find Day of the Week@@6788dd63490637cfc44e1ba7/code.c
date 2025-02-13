@@ -25,7 +25,7 @@ int main() {
     {
     printf("Sunday");}
     else{
-        printf("no")
+        printf("no");
     }
    
 
