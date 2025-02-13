@@ -7,7 +7,7 @@ int main()
 {
     int n, m;
     scanf("%d%d", &n, &m);
-    if(m==0 || n!=0)
+    if(m==0 && n!=0)
     {
         printf("True");
     }
