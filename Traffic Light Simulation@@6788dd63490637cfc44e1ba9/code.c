@@ -11,7 +11,7 @@ else if(c=='G')
 {
 printf("Go");
 }
-else if(c=='y')
+else if(c=='Y')
 {
 printf("Slow Down");
 }
