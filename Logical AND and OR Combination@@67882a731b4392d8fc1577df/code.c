@@ -7,7 +7,7 @@ int main()
 
     if (m == 0)
     {
-        printf("True\n");
+        printf("False\n");
     }
     else if (n >= 0 && m < 0)
     {
