@@ -10,7 +10,7 @@ int main() {
     {
     printf("Equilateral");
     }
-    else if(n=j || n=i || i==j)
+    else if(n==j || n==i || i==j)
     {
         printf("Isosceles");
     }
