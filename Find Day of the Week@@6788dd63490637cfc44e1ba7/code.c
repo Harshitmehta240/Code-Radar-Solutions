@@ -24,7 +24,10 @@ int main() {
      if (n==7)
     {
     printf("Sunday");}
-    
+    if(n>7 || n==0)
+    {
+        printf("Invalid");
+    }
 
     return 0;
 }
