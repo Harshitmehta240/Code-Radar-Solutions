@@ -15,7 +15,7 @@ int main() {
     printf("30");}
      if (n==4)
     {
-    printf("31");}
+    printf("30");}
      if (n==5)
     {
     printf("30");}
@@ -42,7 +42,7 @@ int main() {
     printf("31");}
     if(n>12 || n==0)
     {
-        printf("Invalid");
+        printf("Invalid month");
     }
 
     return 0;
