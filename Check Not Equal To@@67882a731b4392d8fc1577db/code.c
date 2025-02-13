@@ -7,10 +7,10 @@ int main()
     scanf("%d%d",&n,&m);
     if (n>=m)
     {
-        printf("True");
+        printf("False");
     }
     else{
-        printf("False");
+        printf("True");
     }
     return 0;
 }
