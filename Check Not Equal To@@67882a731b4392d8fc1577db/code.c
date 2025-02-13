@@ -5,13 +5,13 @@ int main()
     int n, m;
     scanf("%d%d", &n, &m);
     
-    if (n >= m)
+    if (n > m)
     {
-        printf("False\n");
+        printf("True\n");
     }
     else
     {
-        printf("True\n");
+        printf("False\n");
     }
     
     return 0;
