@@ -7,11 +7,11 @@ int main()
     
     if (n >= m)
     {
-        printf("True\n");
+        printf("False\n");
     }
     else
     {
-        printf("False\n");
+        printf("True\n");
     }
     
     return 0;
