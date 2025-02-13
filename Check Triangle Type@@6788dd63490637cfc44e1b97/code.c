@@ -6,11 +6,11 @@ int main() {
     scanf("%d",&n);
     scanf("%d",&j);
     scanf("%d",&i);
-    if(n=j=i)
+    if(n==j && n==i && i==j)
     {
     printf("Equilateral");
     }
-    if(n==j || n==i || i==j)
+    else if(n==j || n==i || i==j)
     {
         printf("Isosceles");
     }
