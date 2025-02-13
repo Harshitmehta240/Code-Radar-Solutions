@@ -24,10 +24,7 @@ int main() {
      if (n==7)
     {
     printf("Sunday");}
-    else{
-        printf("no");
-    }
-   
+    
 
     return 0;
 }
