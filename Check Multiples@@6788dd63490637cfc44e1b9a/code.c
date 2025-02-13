@@ -8,10 +8,10 @@ int main() {
     scanf("%d",&j);
     if (n%i==0)
     {
-    printf("Yes")}
+    printf("Yes");}
     else
 {
-    printf("No")
+    printf("No");
 }
     return 0;
 }
