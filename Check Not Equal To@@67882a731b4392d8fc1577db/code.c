@@ -1,19 +1,18 @@
-// Your code here...
 #include<stdio.h>
+
 int main()
 {
-    int n,m;
-    scanf("%d%d",&n,&m);
-    if (n>=m && n==7 && m==3)
+    int n, m;
+    scanf("%d%d", &n, &m);
+    
+    if (n >= m)
     {
-        printf("False");
+        printf("False\n");
     }
-    else if(n==7 && m==3)
+    else
     {
-        printf("True");
+        printf("True\n");
     }
-    else{
-        printf("True");
-    }
+    
     return 0;
 }
