@@ -22,7 +22,7 @@ int main()
     }
     else if(a=='F')
     {
-        printf("Fail")
+        printf("Fail");
     }
     else{
         printf("Invalid grade");
