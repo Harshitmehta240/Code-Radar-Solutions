@@ -8,7 +8,7 @@ int main() {
    scanf("%d",&a);
 if(a==1)
 {
-    printf("Hexadecimal: 0")
+    printf("Hexadecimal: 0");
 }
     printf("Sum: %d", a);
 
