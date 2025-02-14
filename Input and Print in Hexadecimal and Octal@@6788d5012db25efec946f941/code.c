@@ -1,16 +1,13 @@
-// Your code here...
-// Your code here...
 #include <stdio.h>
 
 int main() {
-    int a,b;
+    int num;
 
-   scanf("%d",&a);
-if(a==1)
-{
-    printf("Hexadecimal: 0");
-}
-    printf("Sum: %d", a);
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    printf("Hexadecimal: %X\n", num);
+    printf("Octal: %o\n", num);
 
     return 0;
 }
