@@ -10,7 +10,7 @@ if(a==1)
 {
     printf("Hexadecimal: 0")
 }
-    printf("Sum: %d", c);
+    printf("Sum: %d", a);
 
     return 0;
 }
