@@ -5,7 +5,7 @@ int main() {
     char str1[100];
     int a;
     char s[100];
-scanf("%s",&str1);
+scanf("%s",str1);
 scanf("%d",&a);
 scanf("%s",s);
     printf("Name: %s\n",str1);
