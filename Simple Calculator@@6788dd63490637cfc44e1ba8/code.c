@@ -15,19 +15,19 @@ int main() {
     scanf("%lf", &num2);
 
     if (operator == '+') {
-        printf("Result: %.2lf\n", num1 + num2);
+        printf("%.2lf\n", num1 + num2);
     } else if (operator == '-') {
-        printf("Result: %.2lf\n", num1 - num2);
+        printf("%.2lf", num1 - num2);
     } else if (operator == '*') {
-        printf("Result: %.2lf\n", num1 * num2);
+        printf("%.2lf", num1 * num2);
     } else if (operator == '/') {
         if (num2 != 0) {
-            printf("Result: %.2lf\n", num1 / num2);
+            printf("%.2lf", num1 / num2);
         } else {
-            printf("Error! Division by zero.\n");
+            printf("Error");
         }
     } else {
-        printf("Invalid operator!\n");
+        printf("Invalid operator\n");
     }
 
     return 0;
