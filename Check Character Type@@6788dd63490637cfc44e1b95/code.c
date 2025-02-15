@@ -11,14 +11,14 @@ int main() {
             ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
             printf("Vowel\n");
         } else {
-            printf("Consonant.\n");
+            printf("Consonant\n");
         }
     }
     else if (ch >= '0' && ch <= '9') {
-        printf("Digit.\n");
+        printf("Digit\n");
     }
     else {
-        printf("Special Character.\n");
+        printf("Special Character\n");
     }
 
     return 0;
