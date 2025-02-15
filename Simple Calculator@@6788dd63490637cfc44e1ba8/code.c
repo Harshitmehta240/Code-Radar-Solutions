@@ -20,9 +20,7 @@ int main() {
         } else {
             printf("Error");
         }
-    } else {
-        printf("Invalid operator\n");
-    }
+    } 
 
     return 0;
 }
